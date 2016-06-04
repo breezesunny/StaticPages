@@ -1,0 +1,233 @@
+*
+		{
+		margin:0;
+		padding:0;
+		border:0;
+		}
+		body
+		{
+		font-family:Verdana, Arial, '宋体';
+		font-size:12px;
+		}
+		strong
+       {
+		font-family:'微软雅黑';
+		font-size:14px;
+		color:#000;
+		font-weight:800;
+      }
+      body#homefirst div#maincontent, div#maincontent h1, div#maincontent h2, div#sidebar div#ad h2
+		{
+		font-family:'微软雅黑';
+		}
+		h2, h3, h4, h5, h6, em
+		{
+		font-weight: bold;
+		}
+
+         #navsecond h2{font-size: 14px;}
+         
+         #navsecond h2{padding-top: 15px;}
+         #link_about,#link_help{font-size: 12px;color: blue;}
+
+
+        li{list-style-type: none;}
+        #navsecond a{text-decoration: none;color: black;}
+        #sidebar a{color: #a83041;}
+        #sidebar a:hover{color: red;}
+
+        #sidebar h2{font-size: 14px;padding-top: 15px;}
+		/* ----------------------------------- layout ----------------------------------- */
+
+
+		html 	{ 
+		min-width: 966px;
+		background: #f9f9f9;
+		overflow:scroll;
+		overflow-x:hidden;
+		}
+
+		body
+		{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background-color: #f9f9f9 ;
+		}
+        
+        div#wrapper
+		{
+		margin: 0 auto;
+		padding: 0;
+		border: 0;
+		width: 1129px;
+		text-align: left;
+		background-color: white;
+		
+
+		}
+
+        #navsecond{
+		
+		float: left;
+		margin: 0;
+		text-indent: 10px;
+		border: 0;
+		width: 180px;
+		background: #e6e2e3;
+	    margin-left: 15px;
+
+		}
+
+        .first{padding-bottom: 5px;line-height: 14px;}
+        .first a{color: blue;}
+        #maincontent
+		{
+		float: left;
+		margin: 0;
+		padding: 0;
+		
+		width: 740px;
+		background: transparent;
+		text-align: center;
+		}
+        #sidebar
+		{
+		float: left;
+		margin: 0;
+		text-indent: 10px;
+		border: 0;
+		width: 180px;
+		margin-right: 14px;
+		background-color: #e6e2e3;
+		}
+        #searchui{padding-top: 15px;}
+        #searched_content{width: 130px;height: 20px;margin-top: 5px;margin-bottom: 15px;}
+		#searchui p{font-size: 14px;letter-spacing:3px}
+		#searchui .button{background-color: #a83041;height: 20px;width: 20px;color: white;}
+        
+        .last{padding-bottom: 40px;}
+
+		.footer
+		{
+		clear: both;
+		margin: 0;
+		padding: 0;
+		margin-left: 12px;
+		width: 1100px;
+		height: 46px;
+		background: #b6b6b6;
+		border-top: 10px solid #fff;
+		border-bottom: 10px solid #fff;
+		}
+
+       .footer p
+		{
+		margin: 5px 10px 0 10px;
+		padding-top: 3px;
+		line-height: 18px;
+		}
+
+/* ----------------------------------- header ----------------------------------- */
+		#header_index{width: 1100px;
+		height: 90px;
+
+		    padding: 0px;
+		
+		background-color:#c6c4c4;
+		margin-left: 15px;
+		vertical-align: bottom;}
+        
+
+        #header_index a{color: white;text-decoration: none;font-size: 80px;
+        	
+                       font-style: bold;}
+         
+         #navfirst
+		{
+		height: 55px;
+		width: 1100px;
+		margin: 0 0 0 15px;
+		padding: 0;
+		border: 0;
+		background: #fff;
+		}             
+	    #menu
+		{
+		height: 55px;
+		width: 1100px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+
+		}
+
+        #menu li
+		{
+		margin:0;
+		padding:0;
+		
+		float: left;
+		top:0;
+		}
+
+         #menu li, #menu a
+		{
+		display: block;
+		height: 55px;
+		text-decoration: none;
+		color: #c6c4c4;
+		font-size: 20px;
+		margin-right: 15px;
+		margin-left: 15px;
+		padding-top: 8px;
+		}
+
+
+
+
+
+
+/* ----------------------------------- navfirst -----------------------------------*/
+
+
+
+
+
+
+/* ----------------------------------- maincontent-----------------------------------*/
+#w3{
+    width: 720px;
+    margin-left: 10px;
+
+	border-top:1px solid gray;
+	border-bottom: 2px solid gray;
+	height:140px;
+	line-height: 30px;
+	padding-top: 15px;
+ }
+ .idea{
+
+ 	width: 720px;
+    margin-left: 10px;
+	border-bottom: 2px solid gray;
+	height: 120px;
+	text-align: left;
+	line-height: 35px;
+	padding-top: 10px;
+ }
+
+ .idea img{float: left;padding-left: 20px;}
+ .ba{
+
+ 	width: 720px;
+    margin-left: 10px;
+	border-bottom: 2px solid gray;
+	text-align: left;
+	line-height: 35px;
+	padding-top: 10px;
+ }
+
+ .ba a{ color: #a83041;}
+ .ba a:hover{color: red;}
